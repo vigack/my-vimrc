@@ -53,7 +53,7 @@ filetype plugin indent on    " required
 " ==============================================================================
 " 组件设置
 " flazz/vim-colorschemes,主题设置
-colorscheme  codeschool
+colorscheme  molokai
 
 "NERDTree 插件配置
 map <F3> :NERDTreeToggle<CR>
@@ -98,3 +98,8 @@ endif
 "neocomplcache.vim
 let g:neocomplcache_enable_at_startup = 1 "打开vim时自动打开
 let g:neocomplcache_force_overwrite_completefunc = 1
+
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap { {}<ESC>i
+inoremap < <><ESC>i

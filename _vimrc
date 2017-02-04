@@ -105,3 +105,10 @@ set guifont=Consolas:h20
 set nocompatible
 "设置backspace工作方式
 set backspace=indent,eol,start
+
+"括号自动补全
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap { {}<ESC>i
+inoremap < <><ESC>i
+
